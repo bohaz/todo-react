@@ -1,39 +1,95 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body {
+  background-color: blue;
+  font-family: 'lato', sans-serif;
+  margin-top: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.todo-app {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+ font-family: Roboto, sans-serif;
+ text-align: center;
+ margin: 20px 0;
+}
+
+.todo-app-content {
+ width: 600px;
+ min-height: 500px;
+ background-color: #d0d0d5;
+ padding: 25px;
+ margin: 10px;
+ border-radius: 26px;
+}
+
+.task-container {
+ width: 500px;
+ min-height: 65px;
+ background-color: white;
+ margin: 5px 0;
+ padding: 8px 15px 8px 20px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-radius: 7px;
+ border: 1px solid white;
+ cursor: pointer;
+}
+
+.task-text {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  overflow-wrap: anywhere;
 }
 
-.App-link {
-  color: #61dafb;
+.task-icon {
+ width: 25px;
+ height: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.task-container.completed {
+ text-decoration: line-through;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.todo-form {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+
+.todo-input {
+ width: 350px;
+ border-radius: 4px 0 0 4px;
+ border: 1px solid white;
+ padding: 0 15px;
+ font-size: 18px;
+ padding: 14px 32px 14px 16px;
+ outline: none;
+}
+
+.todo-button {
+ width: 100px;
+ height: 50px;
+ border-radius: 0 4px 4px 0;
+ background-color: #4CAF50;
+ color: white;
+ font-size: 18px;
+ cursor: pointer;
+ outline: none;
+ padding: 16px;
+ text-transform: capitalize;
 }
