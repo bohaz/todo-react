@@ -5,7 +5,7 @@
 }
 
 html, body {
-  background-color: blue;
+  background: linear-gradient(to right, #00aaff, #00ff6c);
   font-family: 'lato', sans-serif;
   margin-top: 40px;
 }
@@ -92,4 +92,11 @@ h1 {
  outline: none;
  padding: 16px;
  text-transform: capitalize;
+}
+
+.tasklist-container {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ margin-top: 15px;
 }
