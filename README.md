@@ -30,10 +30,10 @@
 - [📝 License](#license)
 
 
-# 📖 [ToDo List] <a name="about-project"></a>
+# 📖 ToDo List <a name="about-project"></a>
 
 
-**[ToDo List]** It is a Single Page Application that allows users to add and remove tasks.
+**ToDo List** It is a Single Page Application that allows users to add and remove tasks.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -61,7 +61,7 @@ React, Git, and GitHub
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- Demo link is coming soon!!   
+ - [Live Demo Link]([https://bohaz.github.io/My-portfolio/](https://todo-react-xktv.onrender.com/))  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,8 +83,10 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
+```sh
 cd my-folder
 git clone git@github.com:bohaz/todo-react.git
+```
 
 ### Install
 
@@ -133,8 +135,8 @@ You can deploy this project using:
 👤 **Ricardo Martínez**
 
 - GitHub: [@bohaz](https://github.com/bohaz)
-- Twitter: [@Ricardo29115571](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Twitter: [@Ricardo29115571](https://twitter.com/Ricardo29115571)
+- LinkedIn: [Ricardo Martinez](https://www.linkedin.com/in/ricardomart%C3%ADnez%E2%88%B4/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -143,8 +145,8 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Functionality]**
-- [ ] **[Content]**
+- [ ] **Functionality**
+- [ ] **Content**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
