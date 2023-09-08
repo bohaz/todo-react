@@ -61,7 +61,7 @@ React, Git, and GitHub
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- - [Live Demo Link]([https://bohaz.github.io/My-portfolio/](https://todo-react-xktv.onrender.com/))  
+ - [Live Demo Link](https://todo-react-xktv.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
