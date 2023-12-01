@@ -25,6 +25,7 @@ const TodoList = ({
         }}
         role="button"
         tabIndex={0}
+        aria-label={`Marcar tarea "${text}" como completada`}
       >
         {text}
       </span>
@@ -38,6 +39,7 @@ const TodoList = ({
         }}
         role="button" // Agregamos el atributo role="button" para indicar que es un elemento interactivo
         tabIndex={0} // Hacemos el elemento enfocable con el teclado
+        aria-label={`Eliminar tarea "${text}"`}
       >
         <AiOutlineDelete className="task-icon" />
       </div>
