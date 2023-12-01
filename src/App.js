@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="todo-app">
       <div className="todo-app-content">
-        <h1>Todo List | React</h1>
+        <h1>Todo List</h1>
         <TaskList />
       </div>
     </div>
