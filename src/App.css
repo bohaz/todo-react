@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -25,7 +26,7 @@ h1 {
   text-align: center;
   margin: 20px 0;
   font-size: 2.5rem; /* Tamaño de fuente más grande para el título */
-  font-weight: 700; 
+  font-weight: 700;
 }
 
 .todo-app-content {
@@ -77,24 +78,20 @@ h1 {
   align-items: center;
 }
 
-.todo-input, .todo-button {
-  
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+.todo-input,
+.todo-button {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
 
-
-
-
 .todo-input {
   width: 350px;
-  border-radius: 4px 0 0 4px;
   border: 1px solid white;
   font-size: 18px;
   padding: 14px 32px 14px 16px;
   outline: none;
   border-radius: 20px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
 }
 
@@ -110,14 +107,14 @@ h1 {
   outline: none;
   padding: 16px;
   text-transform: capitalize;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
   margin-left: 10px;
 }
 
 .todo-button:hover {
   background-color: #0056b3; /* Efecto hover */
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .tasklist-container {
@@ -125,13 +122,12 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 15px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 
 .task-container:hover {
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 600px) {
@@ -159,15 +155,10 @@ h1 {
 
 @media (max-width: 600px) {
   .task-text {
-    font-size: 18px;  /* Ajustar según sea necesario */
+    font-size: 18px;
   }
 }
 
-.task-icon {
-  transition: transform 0.3s ease;
-}
-
 .task-container:hover .task-icon {
-  transform: scale(1.1); /* Efecto de crecimiento al pasar el ratón */
+  transform: scale(1.1);
 }
-
